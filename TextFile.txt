@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batool Coaching Center - Class 10 Notes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        <h1>Batool <span>Coaching</span></h1>
+      </div>
+      
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="https://batoolcoachingtool.netlify.app/" target="_blank">Tool Hub</a></li>
+          <li><a href="class10_notes.html">Notes</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Unlock Your Potential in Class 10</h2>
+      <p>Comprehensive, Chapter-Wise Notes to Help You Succeed</p>
+      <div class="hero-btns">
+        <a href="class10_notes.html" class="btn btn-primary">Explore Notes</a>
+        <a href="https://batoolcoachingtool.netlify.app/" target="_blank" class="btn btn-outline">Explore Tool Hub </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h3>About Batool Coaching Center</h3>
+          <p>We offer expert coaching from Nursery to Class 10, focusing on concept clarity and exam preparation. Our notes are curated for both board exams and internal assessments, ensuring complete understanding of every chapter.</p>
+          <p>Our experienced faculty is dedicated to nurturing students and helping them achieve their academic goals.</p>
+          
+          <div class="features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-chalkboard-teacher"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Expert Faculty</h4>
+                <p>Qualified teachers with 10+ years of experience</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Comprehensive Notes</h4>
+                <p>Chapter-wise notes for all subjects</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Proven Results</h4>
+                <p>95% of our students score above 90%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-image">
+          <img src="Images/coaching.jpg"> </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title text-center">Our Services</h2>
+      <p class="section-subtitle text-center">We provide comprehensive academic support to help students excel in their Class 10 examinations</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <h4>Personalized Doubt Sessions</h4>
+          <p>One-on-one and group sessions to clear all your doubts with dedicated attention from our faculty.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h4>Regular Mock Tests</h4>
+          <p>Weekly and monthly tests to track your progress and prepare effectively for board exams.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h4>Career Counseling</h4>
+          <p>Guidance from experts to help you choose the right career path after Class 10.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h4>Study Material</h4>
+          <p>Comprehensive notes, sample papers, and reference materials for all subjects.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h4>Online Classes</h4>
+          <p>Flexible online sessions for students who can't attend in-person classes.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h4>Performance Analysis</h4>
+          <p>Detailed reports on strengths and weaknesses with personalized improvement plans.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notes Section -->
+  <section class="notes" id="notes">
+    <div class="container">
+      <h2 class="section-title text-center">Class 10 Chapter-Wise Notes</h2>
+      <p class="section-subtitle text-center">Access comprehensive notes for all subjects to excel in your Class 10 board exams</p>
+      
+      <div class="notes-grid">
+        <div class="note-card">
+          <div class="note-image">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Science">
+          </div>
+          <div class="note-content">
+            <span class="subject-badge science-badge">Science</span>
+            <h4>Chapter 1: Chemical Reactions</h4>
+            <p>Comprehensive notes covering all types of chemical reactions, equations, and important reactions for Class 10.</p>
+            <a href="class10_notes.html" class="btn btn-outline">Download Notes</a>
+          </div>
+        </div>
+        
+        <div class="note-card">
+          <div class="note-image">
+            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Math">
+          </div>
+          <div class="note-content">
+            <span class="subject-badge math-badge">Mathematics</span>
+            <h4>Chapter 1: Real Numbers</h4>
+            <p>Detailed explanations of Euclid's division algorithm, fundamental theorem of arithmetic, and irrational numbers.</p>
+            <a href="class10_notes.html" class="btn btn-outline">Download Notes</a>
+          </div>
+        </div>
+        
+        <div class="note-card">
+          <div class="note-image">
+            <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Social Science">
+          </div>
+          <div class="note-content">
+            <span class="subject-badge social-badge">Social Science</span>
+            <h4>Chapter 1: Power Sharing</h4>
+            <p>Understanding different forms of power sharing with examples from Belgium and Sri Lanka.</p>
+            <a href="class10_notes.html" class="btn btn-outline">Download Notes</a>
+          </div>
+        </div>
+        
+        <div class="note-card">
+          <div class="note-image">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="English">
+          </div>
+          <div class="note-content">
+            <span class="subject-badge english-badge">English</span>
+            <h4>Chapter 1: A Letter to God</h4>
+            <p>Summary, character sketches, and important questions from the story 'A Letter to God'.</p>
+            <a href="class10_notes.html" class="btn btn-outline">Download Notes</a>
+          </div>
+        </div>
+        
+        <div class="note-card">
+          <div class="note-image">
+            <img src="Images/coaching.jpg"> </div>
+          <div class="note-content">
+            <span class="subject-badge hindi-badge">Urdu</span>
+            <h4>Chapter 1: Daastaan</h4>
+            <p>Explanation of Surdas's poetry with word meanings, summary, and important questions.</p>
+            <a href="class10_notes.html" class="btn btn-outline">Download Notes</a>
+          </div>
+        </div>
+        
+        <div class="note-card">
+          <div class="note-image">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Computer Science">
+          </div>
+          <div class="note-content">
+            <span class="subject-badge computer-badge">Computer Science</span>
+            <h4>Chapter 1: Internet Basics</h4>
+            <p>Fundamentals of internet, web services, browsers, and security concepts.</p>
+            <a href="class10_notes.html" class="btn btn-outline">Download Notes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Software Development Section -->
+    <section class="software-development">
+        <div class="container">
+            <div class="dev-content">
+                <div class="dev-text">
+                    <h3>Software Development Expertise</h3>
+                    <p>Beyond coaching, I am a passionate software developer with expertise in creating innovative digital solutions. I bridge the gap between education and technology to develop tools that enhance learning experiences.</p>
+                    <p>With a focus on creating intuitive, efficient, and impactful applications, I bring technical solutions to educational challenges.</p>
+                    
+                    <div class="tech-stack">
+                        <div class="tech-item">Web Development</div>
+                        <div class="tech-item">Mobile Apps</div>
+                        <div class="tech-item">UI/UX Design</div>
+                        <div class="tech-item">JavaScript</div>
+                        <div class="tech-item">Python</div>
+                        <div class="tech-item">React</div>
+                    </div>
+                </div>
+                
+                <div class="dev-features">
+                    <div class="dev-feature">
+                        <h4><i class="fas fa-code"></i> Custom Educational Software</h4>
+                        <p>Developing specialized applications to enhance learning experiences and streamline educational processes.</p>
+                    </div>
+                    
+                    <div class="dev-feature">
+                        <h4><i class="fas fa-mobile-alt"></i> Responsive Web Solutions</h4>
+                        <p>Creating websites and applications that work seamlessly across all devices and platforms.</p>
+                    </div>
+                    
+                    <div class="dev-feature">
+                        <h4><i class="fas fa-lightbulb"></i> Innovative EdTech Tools</h4>
+                        <p>Designing technology solutions that solve real challenges in education and learning.</p>
+                    </div>
+                    
+                    <div class="dev-feature">
+                        <h4><i class="fas fa-cogs"></i> System Integration</h4>
+                        <p>Connecting educational platforms with management systems for seamless operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- Testimonials Section -->
+  <section class="testimonials d-none" id="testimonials">
+    <div class="container testimonials-container">
+      <h2 class="section-title text-center light">What Our Students Say</h2>
+      <p class="section-subtitle text-center light">Success stories from our students who achieved academic excellence</p>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "The notes provided by Batool Coaching Center were comprehensive and well-structured. They helped me understand complex concepts easily. I scored 98% in my Class 10 board exams, all thanks to their guidance and study materials!"
+        </div>
+        <div class="testimonial-author">
+          
+          <div class="author-info">
+            <h5>Sayar Ahmad</h5>
+            <p>Class 10 Student - 98% in Boards</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "The personalized doubt sessions made a huge difference. The teachers are patient and explain concepts until you fully understand. The mock tests prepared me well for the actual board exam pattern. Highly recommended!"
+        </div>
+        <div class="testimonial-author">
+        
+          <div class="author-info">
+            <h5>Kulsum</h5>
+            <p>Class 10 Student - 86% in Boards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title text-center">Contact Us</h2>
+      <p class="section-subtitle text-center">Have questions? Reach out to us for more information</p>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Our Location</h4>
+                <p>Nai Sarak Habba Kadal</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone Number</h4>
+                <p>+91-9596529180</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email Address</h4>
+                <p><a href="mailto:bhatbasra123@gmail.com">bhatbasra123@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="map" style="height: 250px; background: #e9ecef; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.6232048355682!2d74.80531617571759!3d34.079172073146964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e18fb0e65c6f3b%3A0x9df889bb83f0bd05!2sBatool%20coaching%20Centre!5e0!3m2!1sen!2sin!4v1751724326815!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h3 style="font-size: 1.8rem; margin-bottom: 25px; color: var(--dark);">Send Us a Message</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Enter your phone">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" class="form-control" placeholder="How can we help you?"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column footer-about">
+          <h4>About Us</h4>
+          <p>Batool Coaching Center provides comprehensive coaching for Class 10 students with a focus on concept clarity, exam preparation, and academic excellence.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Our Services</a></li>
+            <li><a href="#notes"><i class="fas fa-chevron-right"></i> Study Notes</a></li>
+            <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Subjects</h4>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Mathematics</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Science</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Social Science</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> English</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Hindi</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Newsletter</h4>
+          <p>Subscribe to our newsletter for study tips and updates.</p>
+          <form style="margin-top: 20px;">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <div class="container">
+        <p>&copy; 2023 Batool Coaching Center. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.getElementById('navLinks');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = mobileMenuBtn.querySelector('i');
+      if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      } else {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      }
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: 'smooth'
+          });
+          
+          // Close mobile menu if open
+          if (navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
